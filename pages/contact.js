@@ -63,21 +63,21 @@ const Contact = () => {
             <form method='post' onSubmit={handleSubmit}>
 
             <div className="mb-3">
-    <label htmlfor="exampleInputEmail1" className="form-label">Name </label>
+    <label className="form-label">Name </label>
     <input onChange={handleChange} value={state.name} type="text" className="form-control" id="name" name="name" />
   </div>
   <div className="mb-3">
-    <label htmlfor="exampleInputEmail1" className="form-label">Email address</label>
+    <label  className="form-label">Email address</label>
     <input  onChange={handleChange} value={state.email} type="email" className="form-control" id="email" name="email"/>
   </div>
   <div className="mb-3">
-    <label htmlfor="exampleInputPassword1" className="form-label">Phone</label>
+    <label className="form-label">Phone</label>
     <input  onChange={handleChange} value={state.phone} type="text" className="form-control" id="phone" name="phone"/>
   </div>
 
   <div className="mb-3">
-    <label htmlfor="exampleInputPassword1" className="form-label">comment</label>
-    <input type="textarea"  onChange={handleChange} class="form-control" id="comment" name="comment" rows="3" value={state.comment}/>
+    <label className="form-label">comment</label>
+    <input type="textarea"  onChange={handleChange} className="form-control" id="comment" name="comment" rows="3" value={state.comment}/>
   </div>
   
   <button type="submit" className="btn btn-primary">Submit</button>
