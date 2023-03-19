@@ -10,10 +10,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
-sdasdas{
 
+* {
+  box-sizing: border-box;
+}
 
-  
+* {
+  box-sizing: border-box;
 }
 
 
